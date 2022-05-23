@@ -8,4 +8,6 @@ module.exports.Config = {
   //el objeto de ocnfig que sera exportado tendra las variables de entorno
   //en este ejemploa accedemos al port del .env
   port: process.env.PORT,
+  mongoUri: process.env.mongoMONGO_URI,
+  mongoDbname: process.env.MONGO_DBNAME,
 };
