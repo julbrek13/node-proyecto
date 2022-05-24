@@ -6,9 +6,10 @@ const debug = require("debug")("app:main");
 
 //objeto de configuracion
 const { Config } = require("../proyecto/src/config/index");
-
+const { ProductsAPI } = require("../proyecto/src/products/index");
 const app = express();
-
+//recibe como parametro la app
+ProductsAPI(app);
 // le damos la capacidad de recibir datos
 app.use(express.json());
 
