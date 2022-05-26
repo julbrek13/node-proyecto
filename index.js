@@ -1,3 +1,4 @@
+//ayuda para buscar (ctrl shift H) se usa en los requires, y en los objetos de const {} con usar control + espacio.
 //este archivo generara nuestro servidor
 
 const express = require("express");

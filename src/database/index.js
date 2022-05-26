@@ -1,5 +1,4 @@
 //necesito traer un cliente de mongodb, el cliente nos ayudarar a conectarnos al servider de mongo atlas
-const { rejects } = require("assert");
 const { MongoClient } = require("mongodb");
 //tarigo el paquete de debug pára imprimir lo que necesite, con otro parametro y el nombre del modulo en el que me encuentro
 const debug = require("debug")("app:module-database");
