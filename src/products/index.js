@@ -8,7 +8,7 @@ module.exports.ProductsAPI = (app) => {
   router
     //debemos pasarla como un callback y no ejecutar la funcion
     .get("/", ProductsController.getProducts)
-    .get("/id:", ProductsController.getProducts)
+    .get("/id:", ProductsController.getProduct)
     .post("/", ProductsController.createProducts);
 
   app.use("/api/products", router);
